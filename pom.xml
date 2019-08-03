@@ -1,0 +1,25 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.jozefowicz.stacjait.mynotes</groupId>
+  <artifactId>my-notes-java-backend</artifactId>
+    <packaging>pom</packaging>
+    <version>0.0.1</version>
+    <modules>
+        <module>process-file</module>
+      <module>create-note</module>
+      <module>list-notes</module>
+      <module>file-upload</module>
+      <module>delete-note</module>
+        <module>common</module>
+    </modules>
+
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <aws.sdk.java.v2.version>2.7.7</aws.sdk.java.v2.version>
+    <aws.sdk.java.v1.version>1.11.594</aws.sdk.java.v1.version>
+    <aws.lambda.java.core.version>1.2.0</aws.lambda.java.core.version>
+    <aws.events.version>2.2.6</aws.events.version>
+  </properties>
+</project>
